@@ -27,9 +27,8 @@ body {
     background: #fff;
     position: absolute;
     top: 50%;
-    left: -20px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
-    transform: translateY(-50%);
+    transform: translate(-20px, -50%);
     transition: 0.3s;
 }
 
@@ -38,6 +37,6 @@ body {
 }
 
 .toggle-switch:has(:checked)::before {
-    transform: translate(100px, -50%);
+    transform: translate(70px, -50%);
     /* background: #ffa726; */
 }
